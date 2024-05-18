@@ -7,7 +7,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
 
     </head>
 
@@ -18,21 +21,75 @@
 
             <nav class="navbar">
                 <a href="Home.html" href="#home" style="--i:1" class="active">Home</a>
-                <a href="About.html" href="#about" style="--i:2">About</a>
+                <!-- <a href="About.html" href="#about" style="--i:2">About</a> -->
                 <a href="#services" style="--i:3">Services</a>
-                <a href="#skill" style="--i:4">Skill</a>
+                <!-- <a href="#skill" style="--i:4">Skill</a> -->
                 <a href="Portfolio.html" href="#portfolio" style="--i:5">Portfolio</a>
                 <a href="#contact" style="--i:6">Contact</a>
             </nav>
         </header>
 
-            <section>
-                <div id="portfolio" id="project">
+            <section class="projects section" id="projects">
+                <h3 class="section__subtitle">
+                    Latest<span>Projects</span>
+                </h3>
+
+                <h2 class="section__title">
+                    Recenet Projects
+                </h2>
+
+                <div class="projects__container container grid">
+                    <article class="projects__card">
+                        <img src="projectsforportfolio/flip0023.jpg" alt="projects image" class="projects__img">
+
+                        <div class="projects__modal">
+                            <span class="projects__subtitle">3D Animation</span>
+
+                            <h2 class="projects__title">Flip</h2>
+
+                            <a href="#" class="projects__button">
+                               <a href="projectsforportfolio/flip.mp4" >View Demo   <i class="ri-external-link-line"></i></a>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="projectsforportfolio/faciall.png" alt="projects image" class="projects__img">
+
+                        <div class="projects__modal">
+                            <span class="projects__subtitle">3D Animation</span>
+
+                            <h2 class="projects__title">Facial</h2>
+
+                            <a href="#" class="projects__button">
+                                <a href="projectsforportfolio/Facial.mp4" >View Demo   <i class="ri-external-link-line"></i></a>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="projectsforportfolio/blastt.png" alt="projects image" class="projects__img">
+
+                        <div class="projects__modal">
+                            <span class="projects__subtitle">3D Animation</span>
+
+                            <h2 class="projects__title">Dance</h2>
+
+                            <a href="#" class="projects__button">
+                                <a href="projectsforportfolio/blast12.mp4" >View Demo   <i class="ri-external-link-line"></i></a>
+                            </a>
+                        </div>
+                    </article>
+                    
+                </div>
+                <!-- <div id="portfolio" id="project">
                     <div class="main-text" id="project">
                         <h2>Latest<span>Project</span></h2>
 
-                        <div class="portfolio-content">
-                            <div class="row">
+                        <div class="portfolio-content"> -->
+
+                  
+                            <!-- <div class="row">
                                 <img src="projectsforportfolio/umkhalil/pic12.png">
                                 <div class="layer">
                                     <h5>Branding Design</h5>
@@ -57,16 +114,24 @@
                                         </div>
 
                                 </div>
-                            </div>
-                        <div class="row">
-                    <video controls src="projectsforportfolio/blast7.mp4" autoplay loop muted></video>
+                            </div> -->
+                        <!-- <div class="row">
+                    <video controls src="projectsforportfolio/flip.mp4" autoplay loop muted></video>
                     <div class="layer">
                         <h5>3D Animation</h5>
-                        <p>An animated character with a flip reference</p>
+                        <p>Animated flip</p>
                     </div>
                     </div>
-                </div>
-                            
+
+                    
+                </div> -->
+                          <!-- <div class="row">
+                    <video controls src="blast4.mp4" autoplay loop muted></video>
+                    <div class="layer">
+                        <h5>3D Animation</h5>
+                        <p>Walk Cycle</p>
+                    </div>
+                    </div>  
                 
                             
                         </div>
@@ -76,9 +141,15 @@
                         <h5>3D Animation</h5>
                         <p>Walk Cycle</p>
                     </div>
+
+
+                    
+                    </div> -->
+
+
+<!--                      
                     </div>
-                    </div>
-                </div>
+                </div> -->
 
                 <!-- <div class="wrapper">
                     <input type="checkbox" id="btnBox">
@@ -92,32 +163,11 @@
 
                 </div> -->
 
-            <div class="main-text" id="project">
-                    <h2>Im<span>Ages</span></h2>
-                <div class="cont">
-                    <div class="bo">
-                        <img src="Photo/original.png">
-                    </div>
-                    <div class="bo">
-                        <img src="Photo/mono.png">
-                    </div>
-                    <div class="bo">
-                        <img src="Photo/gray.png">
-                    </div>
-                </div>
-
-            </div> 
+             
             
-            <div class="main-text" id="project">
-                <h2>Au<span>Dio</span></h2>
-                <div class="cont">
-                <audio controls autoplay muted loop>
-                    <source src="Final Audio.mp3">
-                </audio>
-            </div>
-            </div>
+            
 
-        </div> 
+        <!-- </div>  -->
             </section>
             
                 <!-- <a href="#" class="btn-box">More About Me</a> -->
